@@ -2,14 +2,15 @@ import random
 
 def generate_quote():
     quotes = [
-        "Жизнь как велосипед - чтобы сохранить равновесие, нужно двигаться.",
-        "Не тот человек счастлив, у кого много, а тот, кто мало нуждается.",
-        "Лучший способ предсказать будущее - создать его.",
-        "Сложные вещи часто начинаются с простых шагов.",
-        "Счастье не в том, чтобы иметь все, а в том, чтобы радоваться тому, что есть.",
-        "Будь смелым, когда тебя никто не поддерживает. Будь добрым, когда ты силен.",
-        "Только тот, кто рискует ошибиться, заслуживает успеха.",
-        "Секрет успеха - делать обычные вещи необычным способом."
+  
+"Das Leben ist wie ein Fahrrad - um das Gleichgewicht zu halten, musst du dich bewegen."
+"Glücklich ist nicht, wer viel hat, sondern wer wenig braucht."
+"Die beste Möglichkeit, die Zukunft vorherzusagen, besteht darin, sie zu gestalten."
+"Komplexe Dinge beginnen oft mit einfachen Schritten."
+"Glück liegt nicht darin, alles zu haben, sondern sich über das zu freuen, was man hat."
+"Sei mutig, wenn dich niemand unterstützt. Sei freundlich, wenn du stark bist."
+"Nur wer das Risiko eingeht, Fehler zu machen, verdient Erfolg."
+"Das Geheimnis des Erfolgs liegt darin, gewöhnliche Dinge auf ungewöhnliche Weise zu tun."
     ]
 
     return random.choice(quotes)
